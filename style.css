@@ -53,11 +53,11 @@ button:active {
     background: linear-gradient(135deg, #ff9800, #e65100);
 }
 
-#save-btn {
+#refresh-btn {
     background: linear-gradient(135deg, #3ddc84, #1f8f4a);
 }
 
-#save-el {
+#refresh-el {
     color: #ccc;
     font-size: 18px;
     margin-top: 20px;

@@ -1,15 +1,14 @@
 let count = 0
 
 const countEl = document.getElementById("count-el")
-const saveEl = document.getElementById("save-el")
+const refreshEl = document.getElementById("refresh-el")
 const incrementBtn = document.getElementById("increment-btn")
 const decrementBtn = document.getElementById("decrement-btn")
-const saveBtn = document.getElementById("save-btn")
+const refreshBtn = document.getElementById("refresh-btn")
 
 incrementBtn.addEventListener("click", increment)
 decrementBtn.addEventListener("click", decrement)
-saveBtn.addEventListener("click", save)
-
+refreshBtn.addEventListener("click", save)
 function increment() {
     count++
     updateCounter()
@@ -32,7 +31,6 @@ function updateCounter() {
 }
 
 function save() {
-    saveEl.textContent += count + " - "
     count = 0
     updateCounter()
 }
