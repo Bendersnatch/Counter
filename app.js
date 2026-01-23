@@ -30,7 +30,7 @@ function updateCounter() {
     else countEl.style.color = "#fff"
 }
 
-function save() {
+function refresh() {
     count = 0
     updateCounter()
 }
