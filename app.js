@@ -8,7 +8,7 @@ const refreshBtn = document.getElementById("refresh-btn")
 
 incrementBtn.addEventListener("click", increment)
 decrementBtn.addEventListener("click", decrement)
-refreshBtn.addEventListener("click", save)
+refreshBtn.addEventListener("click", refresh)
 function increment() {
     count++
     updateCounter()
