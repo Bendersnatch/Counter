@@ -14,8 +14,14 @@ Permette di incrementare, decrementare e resettare un valore numerico tramite pu
 
 ---
 
+## Link del progetto
+countersefamoro.netlify.app
+
+---
+
 ## Avvio del progetto
 
 Clona il repository:
 ```bash
 git clone https://github.com/Bendersnatch/Counter.git
+
