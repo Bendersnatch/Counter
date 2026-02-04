@@ -1,7 +1,6 @@
 let count = 0
 
 const countEl = document.getElementById("count-el")
-const refreshEl = document.getElementById("refresh-el")
 const incrementBtn = document.getElementById("increment-btn")
 const decrementBtn = document.getElementById("decrement-btn")
 const refreshBtn = document.getElementById("refresh-btn")
@@ -9,16 +8,20 @@ const refreshBtn = document.getElementById("refresh-btn")
 incrementBtn.addEventListener("click", increment)
 decrementBtn.addEventListener("click", decrement)
 refreshBtn.addEventListener("click", refresh)
+
+//funzione incremento
 function increment() {
     count++
     updateCounter()
 }
 
+//funzione decremento
 function decrement() {
     count--
     updateCounter()
 }
 
+//funzione aggiornamento contatore
 function updateCounter() {
     countEl.textContent = count
 
@@ -30,6 +33,7 @@ function updateCounter() {
     else countEl.style.color = "#fff"
 }
 
+//funzione reset
 function refresh() {
     count = 0
     updateCounter()
