@@ -3,10 +3,6 @@
 Un semplice progetto **Counter** realizzato con **HTML, CSS e JavaScript**.  
 Permette di incrementare, decrementare e resettare un valore numerico tramite pulsanti.
 
----
-
-## Link del progetto
-countersefamoro.netlify.app
 
 ---
 
